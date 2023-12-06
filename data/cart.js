@@ -52,6 +52,7 @@ export function removeFromCart(productId) {
   saveToStorage();
 }
 
+
 export function updateDeliveryOption(productId, deliveryOptionId) {
   let matchingItem;
 
